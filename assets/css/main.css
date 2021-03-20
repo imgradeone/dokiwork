@@ -1,5 +1,5 @@
 @import url(fontawesome-all.min.css);
-@import url("https://fonts.font.im/css?family=Noto+Sans+SC:300,300italic,600,600italic&family=ZCOOL+KuaiLe");
+@import url("https://fonts.font.im/css?family=Noto+Sans+SC:300,300italic,600,600italic&family=Inter");
 
 /*
 	Forty by HTML5 UP
@@ -117,7 +117,7 @@ input, select, textarea {
 
 	body, input, select, textarea {
 		color: #ffffff;
-		font-family: "Noto Sans SC", Helvetica, sans-serif;
+		font-family: "Inter", "Noto Sans SC", Helvetica, sans-serif;
 		font-size: 17pt;
 		font-weight: 300;
 		letter-spacing: 0.025em;
@@ -1794,7 +1794,7 @@ input, select, textarea {
 		header.major > p {
 			font-size: 0.7em;
 			font-weight: 600;
-			letter-spacing: 0.25em;
+			
 			margin-bottom: 0;
 			
 		}
@@ -1894,7 +1894,7 @@ input, select, textarea {
 		display: block;
 		font-size: 0.8em;
 		font-weight: 600;
-		letter-spacing: 0.25em;
+		
 		margin: 0 0 1em 0;
 		
 	}
@@ -2151,11 +2151,11 @@ input, select, textarea {
 	}
 
 	a.icon.alt:hover:before {
-		background-color: #6fc3df;
+		background-color: #ff99be;
 	}
 
 	a.icon.alt:active:before {
-		background-color: #37a6cb;
+		background-color: #ff70a9;
 	}
 
 /* Image */
@@ -2523,7 +2523,7 @@ input, select, textarea {
 		font-size: 0.8em;
 		font-weight: 600;
 		height: 3.5em;
-		letter-spacing: 0.25em;
+		
 		line-height: 3.5em;
 		padding: 0 1.75em;
 		text-align: center;
@@ -2799,7 +2799,7 @@ input, select, textarea {
 			}
 
 			.tiles article:after {
-				background-color: rgba(36, 41, 67, 0.25);
+				background-color: rgba(97, 12, 60, 0.25);
 				content: '';
 				display: block;
 				height: 100%;
@@ -2831,7 +2831,7 @@ input, select, textarea {
 			}
 
 			.tiles article:nth-child(6n - 5):before {
-				background-color: #6fc3df;
+				background-color: #ff99be;
 			}
 
 			.tiles article:nth-child(6n - 4):before {
@@ -2938,7 +2938,7 @@ input, select, textarea {
 			-webkit-flex-direction: row;
 			-ms-flex-direction: row;
 			flex-direction: row;
-			background-color: #2e3450;
+			background-color: #ad1f66;
 		}
 
 			.spotlights > section > .image {
@@ -2957,7 +2957,7 @@ input, select, textarea {
 				}
 
 				.spotlights > section > .image:before {
-					background: rgba(36, 41, 67, 0.9);
+					background: rgba(97, 12, 60, 0.9);
 					content: '';
 					display: block;
 					height: 100%;
@@ -3000,7 +3000,7 @@ input, select, textarea {
 				-webkit-flex-direction: row-reverse;
 				-ms-flex-direction: row-reverse;
 				flex-direction: row-reverse;
-				background-color: #333856;
+				background-color: #d4317d;
 			}
 
 				.spotlights > section:nth-child(2n) > .content {
@@ -3120,7 +3120,7 @@ input, select, textarea {
 		font-weight: 600;
 		height: 3.25em;
 		left: 0;
-		letter-spacing: 0.25em;
+		
 		line-height: 3.25em;
 		margin: 0;
 		position: fixed;
@@ -3259,27 +3259,27 @@ input, select, textarea {
 		}
 
 			#header.alt.style1 .logo strong {
-				color: #6fc3df;
+				color: #ff99be;
 			}
 
 			#header.alt.style2 .logo strong {
-				color: #8d82c4;
+				color: #cb96ff;
 			}
 
 			#header.alt.style3 .logo strong {
-				color: #ec8d81;
+				color: #ff9eb1;
 			}
 
 			#header.alt.style4 .logo strong {
-				color: #e7b788;
+				color: #ffc680;
 			}
 
 			#header.alt.style5 .logo strong {
-				color: #8ea9e8;
+				color: #7acaff;
 			}
 
 			#header.alt.style6 .logo strong {
-				color: #87c5a4;
+				color: #73e67c;
 			}
 
 		body.is-preload #header.alt {
@@ -3476,7 +3476,7 @@ input, select, textarea {
 				#banner > .inner .content p {
 					font-size: 0.7em;
 					font-weight: 600;
-					letter-spacing: 0.25em;
+					
 					
 				}
 
@@ -3491,27 +3491,27 @@ input, select, textarea {
 			}
 
 		#banner.style1:after {
-			background-color: #6fc3df;
+			background-color: #ff99be;
 		}
 
 		#banner.style2:after {
-			background-color: #8d82c4;
+			background-color: #cb96ff;
 		}
 
 		#banner.style3:after {
-			background-color: #ec8d81;
+			background-color: #ff9eb1;
 		}
 
 		#banner.style4:after {
-			background-color: #e7b788;
+			background-color: #ffc680;
 		}
 
 		#banner.style5:after {
-			background-color: #8ea9e8;
+			background-color: #7acaff;
 		}
 
 		#banner.style6:after {
-			background-color: #87c5a4;
+			background-color: #73e67c;
 		}
 
 		body.is-preload #banner:after {
@@ -3798,7 +3798,7 @@ input, select, textarea {
 		-ms-justify-content: center;
 		justify-content: center;
 		pointer-events: none;
-		background: rgba(36, 41, 67, 0.9);
+		background: rgba(97, 12, 60, 0.9);
 		box-shadow: none;
 		height: 100%;
 		left: 0;
@@ -3858,7 +3858,7 @@ input, select, textarea {
 						display: block;
 						font-size: 0.8em;
 						font-weight: 600;
-						letter-spacing: 0.25em;
+						
 						line-height: 4em;
 						text-decoration: none;
 						
